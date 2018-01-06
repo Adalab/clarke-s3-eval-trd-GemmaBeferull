@@ -1,4 +1,40 @@
-.viewport {
-height: 100vh;
-width: 100vw;
+.tittle {
+  color: $color-light;
+  font-size: $font-size-lg;
+  font-family: $font-family;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+
+}
+
+.below {
+  z-index: -1;
+}
+
+.txt-hero {
+  color: $color-light;
+  font-size: $font-size-normal;
+  font-family: $font-family;
+}
+.margin {
+  margin-top: 200px;
+}
+
+.arrow {
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: $color-light;
+
+}
+
+.ico-arrow {
+padding-left: 25%;
+padding-top: 25%;
+
+}
+.menu-ico-container{
+  border: 0;
+  width: 44px;
+  height: 44px;
+  background-color: $color-tertiary;
 }

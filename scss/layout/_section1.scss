@@ -1,0 +1,23 @@
+.section1 {
+  width: 320px;
+  height: 376px;
+  background-color: $color-light;
+
+}
+
+.button-go {
+  border: 0;
+  background: $color-light;
+  width: 76px;
+  height: 45px;
+  border-radius: 22.5px;
+  border: solid 2px $color-primary;
+}
+
+.insomnia {
+  color: $color-light-midtone;
+}
+
+.donec {
+  color: $color-dark-midtone;
+}
