@@ -8,28 +8,35 @@
   <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-  <div class="menu-lateral">
-
-  </div>
-  <section class="hero relative viewport">
-    <img src="images/cover.jpg" class= "viewport absolute below" alt="cover">
-    <button type="button" name="button" class="menu-ico-container"><img src="images/ico-menu.svg" alt="menu"></button>
-    <button type="button" name="button" class="menu-ico-container hidden"><img src="images/ico-close.svg" alt="close"></button>
-    <div class="margin">
-      <h1 class="tittle p-xs txt-align-center">ANONYMOUS PROXY</h1>
-      <p class="txt-hero txt-align-center">In hac habitasse platea dictumst.</p>
-      <div class="arrow m-bottom-xl m-right m-left">
-        <img src="images/ico-scroll-down.svg" class="txt-align-center ico-arrow" alt="scroll-down">
+  <section class= "header">
+    <nav class="menu-lateral">
+      <ul class="menu">
+        <li class="menu__item0"><a href="#cover" class="menu__link"> </a></li>
+        <li class="menu__item"><a href="#cover" class="menu__link">Anonymous proxy</a></li>
+        <li class="menu__item"><a href="#section1" class="menu__link">Looking Through A Window</a></li>
+        <li class="menu__item item3"><a href="#section2" class="menu__link">3 Reasons To Purchase</a></li>
+      </ul>
+        <button type="button" name="button" class="ico-close"><img src="images/ico-close.svg" alt="close"></button>
+    </nav>
+    <div class="hero relative viewport" id= "cover">
+      <img src="images/cover.jpg" class= "viewport absolute below" alt="cover">
+      <button type="button" name="button" class="menu-ico-container"><img src="images/ico-menu.svg" alt="menu"></button>
+      <div class="margin">
+        <h1 class="tittle p-xs txt-align-center">ANONYMOUS PROXY</h1>
+        <p class="txt-hero txt-align-center">In hac habitasse platea dictumst.</p>
+        <div class="arrow m-bottom-xl m-right m-left">
+        <a href="#section1"><img src="images/ico-scroll-down.svg" class="txt-align-center ico-arrow" alt="scroll-down"></a>
+        </div>
       </div>
     </div>
   </section>
-  <section class="section1 m-auto">
+  <section class="section1" id="section1">
     <p class="insomnia">Insomnia Tips</p>
     <h2 class="m-top-zero">Looking Through A Window</h2>
     <p class="donec">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
     <button type="button" name="button" class="button-go">Go</button>
   </section>
-  <section class="section-2 txt-align-center">
+  <section class="section-2 txt-align-center" id="section2">
     <h3 class="p-top-lg reasons">3 Reasons To Purchase</h3>
     <div class="box-s2">
       <h4>Ut sed metus</h4>
@@ -43,7 +50,7 @@
   </section>
   <footer class="footer txt-align-center">
     <div class="arrow m-bottom-xl m-right m-left">
-      <img src="images/ico-arrow.svg" class="txt-align-center ico-arrow2" alt="arrow">
+    <a href="#cover"><img src="images/ico-arrow.svg" class="txt-align-center ico-arrow2" alt="arrow"></a>
     </div>
     <p>©2017</p>
     <p>we <span>❤︎</span> components</p>

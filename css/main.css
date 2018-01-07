@@ -237,9 +237,47 @@ body {
   background-color: #0271bc;
 }
 
+.menu-lateral {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  width: 276px;
+  height: 100vh;
+  opacity: 0.96;
+  background-color: #ffffff;
+}
+
+.menu li {
+  height: 44px;
+}
+
+.menu__item {
+  border: 1px solid #8ccbea;
+  border-bottom: 0;
+}
+
+.item3 {
+  border-bottom: 1px solid #8ccbea;
+}
+
+.ico-close {
+  border: 0;
+  width: 44px;
+  height: 44px;
+  background-color: #f26002;
+}
+
 .section1 {
   height: 376px;
   background-color: #ffffff;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .button-go {
