@@ -1,9 +1,18 @@
 .section1 {
+  box-sizing: border-box;
   height: 376px;
   background-color: $color-light;
-  margin-right: 15px;
-  margin-left: 15px;
+  padding:30px 15px 45px;
+  @media (min-width: 768px) {
+    height: 330px;
+    padding: 30px 39px 60px;
 
+}
+  @media (min-width: 1280px) {
+    height: 360px;
+    padding: 60px 275px;
+
+}
 }
 
 .button-go {
@@ -13,18 +22,43 @@
   height: 45px;
   border-radius: 22.5px;
   border: solid 2px $color-primary;
+  @media (min-width: 768px) {
+width: 91px;
+}
+  @media (min-width: 1280px) {
+width: 160px;
+
+}
 }
 
 .insomnia {
   color: $color-light-midtone;
   font-size:14px;
-  padding-top: 30px;
-   
+
+  @media (min-width: 1280px) {
+  font-size:$font-size-normal;
+}
 
 }
 
 .donec {
   color: $color-dark-midtone;
   font-size:$font-size-medium;
+  margin-top: 15px;
   margin-bottom: 30px;
+  @media (min-width: 1280px) {
+  font-size:20px;
+}
+}
+
+@media all and (min-width:768px) {
+.tittle-s1 {
+  font-size:26px;
+}
+}
+
+@media all and (min-width:1280px) {
+.tittle-s1 {
+font-size:32px;
+}
 }

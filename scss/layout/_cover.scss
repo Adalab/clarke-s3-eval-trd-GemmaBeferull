@@ -3,7 +3,12 @@
   font-size: $font-size-lg;
   font-family: $font-family;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-
+    @media (min-width: 768px) {
+      font-size: 80px;
+  }
+    @media (min-width: 1280px) {
+      font-size: 100px;
+  }
 }
 
 .below {
@@ -43,4 +48,12 @@ padding-top: 25%;
   width: 44px;
   height: 44px;
   background-color: $color-tertiary;
+}
+
+
+
+@media all and (min-width:768px) {
+.inhac {
+  font-size: 24px;
+}
 }

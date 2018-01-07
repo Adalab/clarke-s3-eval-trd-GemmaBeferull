@@ -243,8 +243,8 @@ body {
   display: flex;
   position: absolute;
   left: -300px;
-  -webkit-transition: left ease 5s;
-  transition: left ease 5s;
+  -webkit-transition: left ease;
+  transition: left ease;
 }
 
 .left {
@@ -290,10 +290,11 @@ body {
 }
 
 .section1 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   height: 376px;
   background-color: #ffffff;
-  margin-right: 15px;
-  margin-left: 15px;
+  padding: 30px 15px 45px;
 }
 
 .button-go {
@@ -308,17 +309,20 @@ body {
 .insomnia {
   color: #8ccbea;
   font-size: 14px;
-  padding-top: 30px;
 }
 
 .donec {
   color: #4a4a4a;
   font-size: 18px;
+  margin-top: 15px;
   margin-bottom: 30px;
 }
 
 .section-2 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   height: 624px;
+  margin: 30px 15px 60px;
   background-color: #eff9ff;
 }
 
@@ -349,7 +353,6 @@ body {
   border: 0;
   font-size: 20px;
   font-weight: bold;
-  margin-top: 45px;
 }
 
 .footer {
@@ -365,7 +368,7 @@ span {
 
 .arrow-up {
   top: -20%;
-  right: 47%;
+  right: 42%;
 }
 
 .button-go {
@@ -374,9 +377,94 @@ span {
   font-weight: bold;
 }
 
+@media (min-width: 768px) {
+  .tittle {
+    font-size: 80px;
+  }
+
+  .section1 {
+    height: 330px;
+    padding: 30px 39px 60px;
+  }
+
+  .button-go {
+    width: 91px;
+  }
+
+  .section-2 {
+    height: 397px;
+  }
+
+  .reasons {
+    font-size: 26px;
+  }
+
+  .box-s2 h4 {
+    font-size: 24px;
+  }
+
+  .box-s2 p {
+    font-size: 20px;
+  }
+
+  .box-s2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 45px 50px 100px;
+    grid-gap: 30px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .inhac {
+    font-size: 24px;
+  }
+
+  .tittle-s1 {
+    font-size: 26px;
+  }
+}
+
 @media (min-width: 1024px) {
   .hide-lg {
     display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .tittle {
+    font-size: 100px;
+  }
+
+  .section1 {
+    height: 360px;
+    padding: 60px 275px;
+  }
+
+  .button-go {
+    width: 160px;
+  }
+
+  .insomnia {
+    font-size: 16px;
+  }
+
+  .donec {
+    font-size: 20px;
+  }
+
+  .section-2 {
+    height: 427px;
+  }
+
+  .reasons {
+    font-size: 32px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .tittle-s1 {
+    font-size: 32px;
   }
 }
 
