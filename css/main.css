@@ -2,6 +2,7 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  text-size: 14px;
 }
 
 .txt-align-center {
@@ -62,6 +63,22 @@ body {
 
 .m-left {
   margin: auto;
+}
+
+.m-right-zero {
+  margin: 0;
+}
+
+.m-left-zero {
+  margin: 0;
+}
+
+.m-top-zero {
+  margin: 0;
+}
+
+.m-bottom-zero {
+  margin: 0;
 }
 
 .m-xs {
@@ -205,7 +222,11 @@ body {
 }
 
 .ico-arrow {
-  padding-left: 25%;
+  padding-left: 30%;
+  padding-top: 40%;
+}
+
+.ico-arrow2 {
   padding-top: 25%;
 }
 
@@ -232,15 +253,64 @@ body {
 
 .insomnia {
   color: #8ccbea;
+  font-size: 14px;
+  margin-top: 30px;
 }
 
 .donec {
   color: #4a4a4a;
+  font-size: 18px;
 }
 
 .section-2 {
   height: 624px;
   background-color: #eff9ff;
+}
+
+.reasons {
+  font-size: 24px;
+}
+
+.box-s2 {
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 18px;
+}
+
+.box-s2 h4 {
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+
+.box-s2 p {
+  margin-top: 0;
+}
+
+.more-reasons {
+  width: 184px;
+  height: 45px;
+  background: #f26002;
+  color: #ffffff;
+  border: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer {
+  height: 128px;
+  background-color: #304268;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+span {
+  color: #f26002;
+}
+
+.button-go {
+  font-size: 20px;
+  color: #f26002;
+  font-weight: bold;
 }
 
 @media (min-width: 1024px) {

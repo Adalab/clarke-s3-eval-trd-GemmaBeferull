@@ -1,6 +1,7 @@
 body {
   margin:0;
   box-sizing: border-box;
+  text-size:14px;
 }
 
 
@@ -28,6 +29,10 @@ body {
 .m-auto { margin:auto; }
 .m-right { margin:auto; }
 .m-left { margin:auto; }
+.m-right-zero { margin: 0; }
+.m-left-zero {margin: 0;}
+.m-top-zero {margin: 0;}
+.m-bottom-zero {margin: 0;}
 .m-xs { margin: 16px; }
 .m-md { margin: 24px; }
 .m-lg { margin: 32px; }

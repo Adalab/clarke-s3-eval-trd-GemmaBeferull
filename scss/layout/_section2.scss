@@ -2,3 +2,30 @@
   height: 624px;
   background-color: $color-light-2;
 }
+
+.reasons {
+  font-size: 24px;
+}
+
+.box-s2 {
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: $font-size-medium;
+   h4 {
+     margin-top: 45px;
+     margin-bottom: 0px;
+   }
+   p{
+     margin-top: 0;
+   }
+}
+
+.more-reasons {
+  width: 184px;
+  height: 45px;
+  background: $color-primary;
+  color: $color-light;
+  border: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
