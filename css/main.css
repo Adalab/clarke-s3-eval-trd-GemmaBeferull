@@ -241,6 +241,15 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: absolute;
+  left: -300px;
+  -webkit-transition: left ease 5s;
+  transition: left ease 5s;
+}
+
+.left {
+  left: 0px;
+  z-index: 4;
 }
 
 .menu {
@@ -255,6 +264,13 @@ body {
 
 .menu li {
   height: 44px;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #304268;
+  padding-left: 15px;
+  text-align: left;
 }
 
 .menu__item {
@@ -292,12 +308,13 @@ body {
 .insomnia {
   color: #8ccbea;
   font-size: 14px;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 .donec {
   color: #4a4a4a;
   font-size: 18px;
+  margin-bottom: 30px;
 }
 
 .section-2 {
@@ -332,6 +349,7 @@ body {
   border: 0;
   font-size: 20px;
   font-weight: bold;
+  margin-top: 45px;
 }
 
 .footer {
@@ -343,6 +361,11 @@ body {
 
 span {
   color: #f26002;
+}
+
+.arrow-up {
+  top: -20%;
+  right: 47%;
 }
 
 .button-go {
