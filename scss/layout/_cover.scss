@@ -1,3 +1,10 @@
+.hero {
+ background-image: url("../images/cover.jpg");
+ background-size: cover;
+ background-position: center;
+ height: 100vh;
+}
+
 .tittle {
   color: $color-light;
   font-size: $font-size-lg;

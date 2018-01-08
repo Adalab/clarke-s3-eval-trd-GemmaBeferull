@@ -6,6 +6,7 @@
 body {
   margin: 0;
   text-size: 14px;
+  font-family: "Roboto", sans-serif;
 }
 
 .txt-align-center {
@@ -196,10 +197,17 @@ body {
   padding-top: 50px;
 }
 
+.hero {
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
 .tittle {
   color: #ffffff;
   font-size: 42px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -214,7 +222,7 @@ body {
 .txt-hero {
   color: #ffffff;
   font-size: 16px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .margin {
@@ -250,7 +258,7 @@ body {
   display: flex;
   position: absolute;
   width: 276px;
-  left: -236px;
+  left: -239px;
   top: 0;
   -webkit-transition: left ease;
   transition: left ease;
