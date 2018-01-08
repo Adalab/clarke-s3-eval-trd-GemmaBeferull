@@ -1,7 +1,7 @@
 .section-2 {
   box-sizing: border-box;
   height: 624px;
-  margin: 30px 15px 60px;
+  padding: 30px 15px 60px;
   background-color: $color-light-2;
   @media (min-width: 768px) {
   height: 397px;
@@ -43,7 +43,6 @@ font-size: 32px;
    @media (min-width: 768px) {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
-     grid-template-rows: 45px 50px 100px ;
      grid-gap:30px;
 
  }

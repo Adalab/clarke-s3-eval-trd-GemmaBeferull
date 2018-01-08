@@ -1,29 +1,24 @@
 .menu-lateral {
   display: flex;
   position: absolute;
-  left: -300px;
+  width: 276px;
+  left: -236px;
+  top:0;
 	transition: left ease;
 }
-
 .left {
-  left: 0px;
-  z-index: 4;
-
+  left:0;
 }
+
 
 .menu {
   list-style:none;
   padding-left: 0;
   margin: 0;
-  width: 276px;
   height: 100vh;
   opacity: 0.96;
   background-color: $color-light;
 
-  li {
-    height: 44px;
-
-  }
 }
 .menu__link {
   text-decoration:none;
@@ -34,6 +29,7 @@
 
 .menu__item {
   border: 1px solid $color-light-midtone;
+  padding: 12px;
   border-bottom: 0;
 }
 .item3 {
