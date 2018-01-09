@@ -1,6 +1,5 @@
 .section1 {
   box-sizing: border-box;
-
   background-color: $color-light;
   padding:30px 15px 45px;
   @media (min-width: 768px) {
@@ -9,7 +8,7 @@
 
 }
   @media (min-width: 1280px) {
-  
+
     padding: 60px 275px;
 
 }
@@ -18,6 +17,7 @@
 .tittle-s1 {
 
   font-family: $font-family-secondary;
+  font-weight: $font-weight-lg;
   @media (min-width: 768px) {
     font-size:26px;
     padding-bottom: 30px;

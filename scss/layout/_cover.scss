@@ -9,6 +9,7 @@
   color: $color-light;
   font-size: $font-size-lg;
   font-family: $font-family-secondary;
+  font-weight: $font-weight-lg;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
     @media (min-width: 768px) {
       font-size: 80px;
@@ -60,7 +61,7 @@ padding-top: 25%;
 
 }
 
-.menu-ico-container{
+.menu-button{
   border: 0;
   width: 44px;
   height: 44px;

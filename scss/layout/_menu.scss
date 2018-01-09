@@ -25,12 +25,17 @@
   color: $color-secondary;
   padding-left: 15px;
    text-align: left;
+   font-family: $font-family-secondary;
+   font-weight: $font-weight-light;
 }
 
 .menu__item {
   border: 1px solid $color-light-midtone;
   padding: 12px;
   border-bottom: 0;
+   &:hover{
+    background-color: $color-light-2;
+  }
 }
 .item3 {
   border-bottom: 1px solid $color-light-midtone;
