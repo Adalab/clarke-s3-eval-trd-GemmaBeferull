@@ -42,8 +42,8 @@ window.addEventListener ('scroll', closeNavMenu)
  			threeReasons += '<div class="div-s2"><h4 class="tittle-s2">' + responseJSON.reasons[i].title + '</h4><p class="txt-s2">'+ responseJSON.reasons[i].description + '</p></div>';
 
  		}
- 		 containerReasons.innerHTML = threeReasons;
-     
+ 		 containerReasons.innerHTML = containerReasons.innerHTML + threeReasons;
+     threeReasons = ''
  	})
  	request.send();
  }
