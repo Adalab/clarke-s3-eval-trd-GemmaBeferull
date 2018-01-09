@@ -305,7 +305,6 @@ body {
 .section1 {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  height: 376px;
   background-color: #ffffff;
   padding: 30px 15px 45px;
 }
@@ -338,7 +337,6 @@ body {
 .section-2 {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  height: 624px;
   padding: 30px 15px 60px;
   background-color: #eff9ff;
 }
@@ -376,7 +374,6 @@ body {
 }
 
 .footer {
-  height: 128px;
   background-color: #304268;
   color: #ffffff;
   font-size: 14px;
@@ -411,7 +408,6 @@ span {
   }
 
   .section1 {
-    height: 330px;
     padding: 30px 39px 60px;
   }
 
@@ -429,7 +425,6 @@ span {
   }
 
   .section-2 {
-    height: 397px;
     padding: 30px 40px 60px 38px;
   }
 
@@ -484,7 +479,6 @@ span {
   }
 
   .section1 {
-    height: 360px;
     padding: 60px 275px;
   }
 
@@ -502,10 +496,6 @@ span {
 
   .donec {
     font-size: 20px;
-  }
-
-  .section-2 {
-    height: 427px;
   }
 
   .reasons {

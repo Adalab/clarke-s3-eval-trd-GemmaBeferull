@@ -1,15 +1,15 @@
 .section1 {
   box-sizing: border-box;
-  height: 376px;
+
   background-color: $color-light;
   padding:30px 15px 45px;
   @media (min-width: 768px) {
-    height: 330px;
+
     padding: 30px 39px 60px;
 
 }
   @media (min-width: 1280px) {
-    height: 360px;
+  
     padding: 60px 275px;
 
 }
@@ -62,7 +62,7 @@ width: 160px;
   margin-top: 15px;
   margin-bottom: 30px;
   @media (min-width: 768px) {
-  
+
     padding-bottom: 30px;
 
 }

@@ -43,7 +43,7 @@ window.addEventListener ('scroll', closeNavMenu)
 
  		}
  		 containerReasons.innerHTML = threeReasons;
-     threeReasons = '';
+     
  	})
  	request.send();
  }
