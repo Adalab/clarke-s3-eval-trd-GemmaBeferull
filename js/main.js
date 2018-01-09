@@ -26,35 +26,28 @@ for (var i = 0; i < menuItem.length; i++) {
 window.addEventListener ('scroll', closeNavMenu)
 
 
- var newReasons = '';
  var threeReasons = '';
  var containerReasons = document.querySelector('.box-s2');
  var moreReasonsButton = document.querySelector('.more-reasons');
- moreReasonsButton.addEventListener('click', getMoreReasons);
+
 
  function getMoreReasons() {
  	var request = new XMLHttpRequest();
  	request.open('GET', 'https://three-random-reasons-izwfjpgbqm.now.sh/');
- 	request.addEventListener('load', loadReasons);
-
- 	function loadReasons() {
+ 	request.addEventListener('load', function loadReasons() {
  		var response = request.responseText;
  	  var responseJSON = JSON.parse(response);
 
-
  		for (var i = 0; i < responseJSON.reasons.length; i++) {
-
- 			newReasons += '<div class="div-s2"><h4 class="tittle-s2">' + responseJSON.reasons[i].title + '</h4><p class="txt-s2">'+ responseJSON.reasons[i].description + '</p></div>';
- 			threeReasons =  newReasons;
-      
+ 			threeReasons += '<div class="div-s2"><h4 class="tittle-s2">' + responseJSON.reasons[i].title + '</h4><p class="txt-s2">'+ responseJSON.reasons[i].description + '</p></div>';
 
  		}
  		 containerReasons.innerHTML = threeReasons;
-     newReasons = '';
- 	}
+     threeReasons = '';
+ 	})
  	request.send();
  }
-
+moreReasonsButton.addEventListener('click', getMoreReasons);
 
 
 /*
