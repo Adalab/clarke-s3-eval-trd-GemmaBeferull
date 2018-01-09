@@ -3,12 +3,18 @@ height: 128px;
  background-color: $color-secondary;
  color: $color-light;
  font-size: 14px;
+ flex-direction: column;
 }
 
 span {
   color: $color-primary;
 }
 
-.arrow-up {
+.aupcontent {
   top:-20%;
+  left: 45%;
+  @media (min-width: 768px) {
+    left: 48%;
+}
+
 }

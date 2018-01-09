@@ -1,3 +1,5 @@
+'use strict';
+
 var buttonMenu = document.querySelector (".menu-button");
 var trigger = document.querySelector (".menu-lateral");
 var buttonClose = document.querySelector (".ico-close")

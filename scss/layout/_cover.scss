@@ -8,7 +8,7 @@
 .tittle {
   color: $color-light;
   font-size: $font-size-lg;
-  font-family: $font-family;
+  font-family: $font-family-secondary;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
     @media (min-width: 768px) {
       font-size: 80px;
@@ -18,7 +18,13 @@
   }
 }
 .txt-header {
-  padding-top: 50vh;
+  padding-top: 270px;
+  @media (min-width: 768px) {
+  padding-top: 480px;
+}
+  @media (min-width: 1280px) {
+    padding-top: 280px;
+}
 }
 
 .below {
@@ -29,6 +35,7 @@
   color: $color-light;
   font-size: $font-size-normal;
   font-family: $font-family;
+  padding-bottom: 30px;
 }
 .margin {
   margin-top: 200px;
