@@ -1,4 +1,5 @@
 'use strict';
+// Abrir y cerrar menu lateral
 
 var buttonMenu = document.querySelector (".menu-button");
 var trigger = document.querySelector (".menu-lateral");
@@ -26,36 +27,30 @@ for (var i = 0; i < menuItem.length; i++) {
 window.addEventListener ('scroll', closeNavMenu)
 
 
+//Promesas
 
-
-
-
-
-
-/*promesas
-var gridContainer = document.querySelector('.box-s2');
+var containerReasons = document.querySelector('.box-s2');
 var buttonAddReason = document.querySelector('.more-reasons');
 
-buttonAddReason.addEventListener('click', addMoreReason);
+buttonAddReason.addEventListener('click', addReason);
 
-function addMoreReason() {
-  return fetch('https://three-random-reasons-izwfjpgbqm.now.sh/') //peticion
-    .then(function(response){ //respuesta
-    return response.json(); //transformo a json
+function addReason() {
+  return fetch('https://three-random-reasons-izwfjpgbqm.now.sh/')
+    .then(function(response){
+    return response.json();
   })
 
   .then(function(json){
-    var newReason = json.reasons; //entro en json y cojo el array de reasons
-    var newReasonContainer = ''; //variable vacía para almacenar los nuevos div
-
-    for (var i = 0; i < newReason.length; i++) {
-      newReasonContainer += '<h4 class="tittle-s2">' + newReason[i].title + '</h4><p class="txt-s2">' + newReason[i].description + '</p>'; //recorro añadiendo al h5 el titulo y al p la descripcion
+    var newReasons = json.reasons;
+    var threeReasons = '';
+    for (var i = 0; i < newReasons.length; i++) {
+      threeReasons += '<div class="div-s2"><h4 class="tittle-s2">' + newReasons[i].title + '</h4><p class="txt-s2">' + newReasons[i].description + '</p></div>'; //recorro añadiendo al h5 el titulo y al p la descripcion
     }
-    gridContainer.innerHTML += newReasonContainer; //añado al div container los nuevos div
+    containerReasons.innerHTML = containerReasons.innerHTML + threeReasons;
   })
 }
 
-*/
+
 
 /* ajax
  var threeReasons = '';
