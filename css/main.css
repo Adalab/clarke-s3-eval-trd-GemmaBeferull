@@ -9,14 +9,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.ico-container {
-  opacity: 1;
-}
-
-.ico-container:hover {
-  opacity: 0.7;
-}
-
 .txt-align-center {
   text-align: center;
 }
@@ -210,6 +202,10 @@ body {
   background-size: cover;
   background-position: center;
   height: 100vh;
+}
+
+.hero2 {
+  opacity: 0.5;
 }
 
 .tittle {
@@ -412,6 +408,14 @@ span {
   font-size: 20px;
   color: #f26002;
   font-weight: bold;
+}
+
+.ico-container {
+  opacity: 1;
+}
+
+.ico-container:hover {
+  opacity: 0.7;
 }
 
 @media (min-width: 768px) {

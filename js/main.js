@@ -26,6 +26,38 @@ for (var i = 0; i < menuItem.length; i++) {
 window.addEventListener ('scroll', closeNavMenu)
 
 
+
+
+
+
+
+
+/*promesas
+var gridContainer = document.querySelector('.box-s2');
+var buttonAddReason = document.querySelector('.more-reasons');
+
+buttonAddReason.addEventListener('click', addMoreReason);
+
+function addMoreReason() {
+  return fetch('https://three-random-reasons-izwfjpgbqm.now.sh/') //peticion
+    .then(function(response){ //respuesta
+    return response.json(); //transformo a json
+  })
+
+  .then(function(json){
+    var newReason = json.reasons; //entro en json y cojo el array de reasons
+    var newReasonContainer = ''; //variable vacía para almacenar los nuevos div
+
+    for (var i = 0; i < newReason.length; i++) {
+      newReasonContainer += '<h4 class="tittle-s2">' + newReason[i].title + '</h4><p class="txt-s2">' + newReason[i].description + '</p>'; //recorro añadiendo al h5 el titulo y al p la descripcion
+    }
+    gridContainer.innerHTML += newReasonContainer; //añado al div container los nuevos div
+  })
+}
+
+*/
+
+/* ajax
  var threeReasons = '';
  var containerReasons = document.querySelector('.box-s2');
  var moreReasonsButton = document.querySelector('.more-reasons');
@@ -47,25 +79,4 @@ window.addEventListener ('scroll', closeNavMenu)
  	})
  	request.send();
  }
-moreReasonsButton.addEventListener('click', getMoreReasons);
-
-
-/*
-var request = new XMLHttpRequest();
-var listHTML=document.querySelectorAll('.txt-s2');
-request.open('GET', 'https://three-random-reasons-izwfjpgbqm.now.sh/');
-
-request.addEventListener('load', showData);
-
-function showData() {
-  var response = request.responseText;
-  var reasons = JSON.parse(response);
-  for (var i = 0; i < reasons.length; i++) {
-    listHTML[i].innerHTML =  reasons[i].description;
-}
-
-request.send();
-
-var buttonReasons = document.querySelector ('.more-reasons')
-buttonReasons.addEventListener('click', showData);
-*/
+moreReasonsButton.addEventListener('click', getMoreReasons);*/

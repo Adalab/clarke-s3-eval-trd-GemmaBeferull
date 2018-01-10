@@ -6,14 +6,6 @@ body {
   text-size:14px;
   font-family: $font-family;
 }
-.ico-container {
-opacity: 1;
-  &:hover{
-  opacity: 0.7;
-
-  }
-}
-
 
 .txt-align-center { text-align:center; }
 .flex { display: flex; }
