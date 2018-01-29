@@ -5,3 +5,4 @@ This project is focused in learning:
 - Use of CSS Grid
 - Use of animations and transitions
 - Use of promises
+- Use of SASS
